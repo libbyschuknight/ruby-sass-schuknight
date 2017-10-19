@@ -1,2 +1,1 @@
-# [libbyschuknight.github.io](http://libbyschuknight.github.io/)
-
+# Static site with Sass via ruby gems
