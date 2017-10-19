@@ -1,0 +1,69 @@
+/*media query breakpoints*/
+
+/* Now for everything
+was Media Queries for mobile dropdown menu */
+
+@media (min-width: 320px) and (max-width: 568px){
+  h1 {
+    font-size: 3em;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  #heading {
+    margin-top: 0px;
+    height: 300px;
+  }
+
+  .header {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  #menu, ol, ul {
+    padding-left: 0;
+  }
+
+  #about p, #whatIdo p, #online p {
+    font-weight: 300;
+  }
+
+  #footer {
+    font-size: 0.75em;
+  }
+
+  a:hover  {
+    color: rgb(5, 161, 232);
+  }
+
+  #online ul {
+    display: block;
+  }
+
+  #online li {
+    margin-left: 0;
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+
+  #online img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width: 569px){
+  #menu select {
+    display: none;
+  }
+}
+
+/* Other Media Queries */
+
+@media screen and (min-width: 400px) {
+  #links-content ul {
+    width: 300px;
+  }
+}
