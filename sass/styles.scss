@@ -1,10 +1,19 @@
 // Import external libraries
 
-@import "breakpoint";
+// @import "breakpoint";
 
 // Import requirements
 @import "_variables.scss";
 @import "_mixins.scss";
 
+// Import normalize.scss
+@import "vendors/_normalize.scss";
+@import "vendors/_variables.scss";
+@import "vendors/_vertical-rhythm.scss";
+
+
 // Import everything else
-@import "_*.scss";
+// @import "_*.scss";
+
+@import "_layout.scss";
+@import "_responsive.scss";
